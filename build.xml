@@ -1,5 +1,5 @@
 <project>
     <target name="compile">
-        <javac srcdir="." destdir="../hellonode-build/"/>
+        <copy file="app.js" todir="../hellonode-build"/>
     </target>
 </project>
