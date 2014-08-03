@@ -1,5 +1,6 @@
 <project>
     <target name="compile">
         <copy file="app.js" todir="../hellonode-build"/>
+        <copy file="src/test/selenium/hellonode.json" todir="../hellonode-build"/>        
     </target>
 </project>
